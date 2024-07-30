@@ -1,0 +1,91 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #048e32; /* Set your desired background color */
+    padding: 10px;
+    text-align: center;
+}
+
+
+.movie-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+}
+.movie-poster {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.container {
+    display: flex;
+    gap: 20px; /* Space between the two containers */
+}
+
+.scrollable-container {
+    width: 90%;
+    height: 250px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.scrollable-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.scrollable-list li {
+    font-size: 20px; /* Increased font size */
+    padding: 12px; /* Increased padding */
+    border-bottom: 1px solid #ddd;
+}
+
+.scrollable-list li button {
+    margin-left: 10px; /* Optional: Adds space between text and button */
+}
